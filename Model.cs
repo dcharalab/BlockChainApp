@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+
+namespace BlockchainApp.Model{
+
+    public class Transaction{
+
+        public Transaction(){}
+        public Transaction(string from, string to, int amount){
+            this.From = from;
+            this.To = to;
+            this.Amount = amount;
+        }
+        public string From{ get; set;}
+        public string To{get; set;}
+        public int Amount{get; set;}
+
+    }
+
+    public class Block{
+        public long Index { get; set; }
+        public DateTime TimeStamp { get; set; }
+        public string Hash { get; set; }
+        public string PrevHash { get; set; }
+        public long Nounce { get; set; }
+        public List<Transaction> TransactionList { get; set; }
+    }
+
+
+}
+
