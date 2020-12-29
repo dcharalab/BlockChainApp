@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BlockchainApp/1.0.0": {
+        "dependencies": {
+          "EmbedIO": "3.4.3",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "BlockchainApp.dll": {}
+        }
+      },
+      "EmbedIO/3.4.3": {
+        "dependencies": {
+          "Unosquare.Swan.Lite": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/EmbedIO.dll": {
+            "assemblyVersion": "3.4.3.0",
+            "fileVersion": "3.4.3.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Unosquare.Swan.Lite/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Swan.Lite.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlockchainApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmbedIO/3.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YM6hpZNAfvbbixfG9T4lWDGfF0D/TqutbTROL4ogVcHKwPF1hp+xS3ABwd3cxxTxvDFkj/zZl57QgWuFA8Igxw==",
+      "path": "embedio/3.4.3",
+      "hashPath": "embedio.3.4.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Unosquare.Swan.Lite/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-noPwJJl1Q9uparXy1ogtkmyAPGNfSGb0BLT1292nFH1jdMKje6o2kvvrQUvF9Xklj+IoiAI0UzF6Aqxlvo10lw==",
+      "path": "unosquare.swan.lite/3.0.0",
+      "hashPath": "unosquare.swan.lite.3.0.0.nupkg.sha512"
+    }
+  }
+}
